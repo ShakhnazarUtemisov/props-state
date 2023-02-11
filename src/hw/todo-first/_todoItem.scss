@@ -1,0 +1,31 @@
+.todo-wrapper{
+    margin: 20px;
+    padding: 20px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.notdone{
+    text-decoration: none;
+}
+
+.noteValue{
+    cursor: pointer;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+
+    .newTask{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 150px;
+    }
+    
+}
+
+

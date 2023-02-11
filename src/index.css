@@ -1,13 +1,90 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  margin: 30px;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  border: 1px solid grey;
 }
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.water-wrapper {
+  margin: 30px;
+}
+
+.water {
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}
+
+.ice {
+  padding: 20px;
+  background-color: cyan;
+}
+
+.quotes-wrapper {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.quotes-wrapper div {
+  margin: 20px;
+  padding: 30px 50px;
+}
+.quotes-wrapper button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+}
+
+.counter-wrapper {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.todo-wrapper {
+  margin: 20px;
+  padding: 20px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.notdone {
+  text-decoration: none;
+}
+
+.noteValue {
+  cursor: pointer;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+}
+.tasks .newTask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 150px;
+}/*# sourceMappingURL=index.css.map */
